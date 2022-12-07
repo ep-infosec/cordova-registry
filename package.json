@@ -1,0 +1,23 @@
+{
+  "name": "cordova-registry",
+  "version": "0.0.1",
+  "description": "Registry files for the Cordova Plugin Registry. http://plugins.cordova.io",
+  "main": "app.js",
+  "scripts": {
+    "serve": "couchapp push app.js http://localhost:5984/registry"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apache/cordova-registry"
+  },
+  "keywords": [
+    "cordova",
+    "registry"
+  ],
+  "author": "Anis Kadri, Steve Gill",
+  "license": "Apache V2",
+  "dependencies": {
+    "couchapp": "^0.10.0",
+    "semver": "^2.2.1"
+  }
+}
